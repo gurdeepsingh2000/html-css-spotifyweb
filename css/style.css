@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: aqua;
+    width: 100%;
+}
+
+.app{
+    height: 100vh;
+}
+
+.app main{
+    height: calc(100vh - 90px);
+    background-color: navajowhite;
+    overflow-y: scroll;
+}
+
+.app footer{
+    height: 90px;
+}
+
+main .sidebar{
+background-color: olive;
+}
+
+.sounds{
+    height: 200vh;
+    width: 200px;
+    background-color:palevioletred;
+    margin: 0 auto;
+}
+
