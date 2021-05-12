@@ -37,8 +37,18 @@ background-color: olive;
 
 
 .top-bar{
+    display: flex;
     height: 100px;
     width: 100%;
     background-color: red;
+    position: fixed;
+}
+
+
+.item-list{
+    height: 50px;
+    background-color: powderblue;
+    justify-content: center;
+    text-align: center;
 }
 
