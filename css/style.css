@@ -40,12 +40,6 @@ main {
     vertical-align: center;
 }
 
-.playlist-name {
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
-}
-
 .sidebar-left li, .playlist-sidebar li {
     padding: 5px 0;
     display: flex;
@@ -81,6 +75,7 @@ main {
     color: greenyellow;
     padding-right: 6px;
 }
+
 
 
 .content {
@@ -141,3 +136,56 @@ footer {
 ul{
     list-style-type: none;
 }
+
+
+.playlist-sidebar .fas{
+    font-size: 50px;
+}
+
+
+.sidebar-left,.playlist-sidebar li{
+    font-size: 20px;
+}
+
+.sidebar-left .fas{
+    font-size: 30px;
+}
+
+.sidebar-left li:hover{
+    color: white;
+}
+
+.playlist-sidebar li:hover{
+    color: white;
+}
+
+.playlist-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-left{
+    color: grey;
+}
+
+.playlist-sidebar{
+    color: grey;
+}
+
+.install-app-sidebar{
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.username-sidebar{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.sidebar2 .fas{
+    font-size: 28px;
+    color: grey;
+}
+
