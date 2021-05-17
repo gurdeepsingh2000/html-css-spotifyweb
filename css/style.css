@@ -242,13 +242,6 @@ footer{
     
 }
 
-.footer-dx{
-    height: 100%;
-    width: 385px;
-    display: flex;
-
-}
-
 .type-buttons{
     width: 100%;
     background-color: teal;
@@ -309,6 +302,109 @@ footer{
 }
 
 
+.footer-dx{
+    height: 100%;
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-dx div i {
+    color: white;
+}
+
+.playline-dx{
+    display: flex;
+    height: 5px;
+    width: 150px;
+    background-color: gray;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.playline-elapsed-dx{
+    width: 40px;
+    background-color: white;
+    height: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: white 1px solid;
+}
+
+
+
+.row-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album-container{
+    background-color: aqua;
+    width: calc(100% / 6 - 15px);
+    margin-right: 15px;
+}
+
+.cover-container{
+    position: relative;
+}
+
+.album-container:hover .cover-layover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.cover-container .cover-layover{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.cover-container img{
+    width: 100%;
+    display: block;
+}
+
+.cover-layover .far{
+    font-size: 60px;
+    color: white;
+}
+
+.container-title{
+    text-align: center;
+    color: white;
+}
+
+.container-title span{
+    color: grey;
+}
+
+
+@media all and (max-width: 991px) {
+
+
+    .album-container{
+        width: calc(100% / 4 - 15px);
+        margin-right: 15px;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+
+
+    .album-container{
+        width: calc(100% / 2 - 15px);
+        margin-right: 15px;
+    }
+}
 
 
 
